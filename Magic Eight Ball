@@ -1,11 +1,11 @@
 let userName = 'Levi';
-userName ? console.log(`hello , ${userName}`) : console.log('hello');
+userName ? console.log(`hello, ${userName}!`) : console.log('hello');
 let userQuestion = 'A Serious Question!';
 console.log(`${userName} has asked - ${userQuestion}`);
-let randomNumber = Math.floor(Math.random() *8);
-console.log (randomNumber);
+let randomNumber = Math.floor(Math.random() * 8);
+console.log(randomNumber);
 let eightBall = '';
-switch (randomNumber) {
+switch(randomNumber) {
   case 0:
   eightBall = "It Is Certain";
   break;
