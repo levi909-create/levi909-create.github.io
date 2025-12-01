@@ -1,0 +1,14 @@
+my_age = 35
+half_my_age = 17.5
+sentence = "My Age Is "
+greeting = "hello how are you today"
+name = " Levi "
+greeting_with_name = greeting + name 
+
+print(greeting_with_name)
+age_and_half_age_combined = my_age + half_my_age
+print(age_and_half_age_combined)
+
+combined_everything = greeting + name + sentence + str(my_age) 
+
+print(combined_everything)
