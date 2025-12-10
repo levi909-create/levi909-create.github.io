@@ -1,0 +1,66 @@
+name = "Levi"
+print(f"Calculating BMI...for {name}")
+height = 180.34  # height in centimeters
+weight = 86  # weight in kilograms
+bmi = weight / (height / 100) ** 2
+print(f"Your BMI is: {bmi:.2f}")
+# BMI Calculation
+
+
+def calculate_bmi(weight, height):
+    """Calculate Body Mass Index (BMI)"""
+    return weight / (height / 100) ** 2 
+bmi_value = calculate_bmi(weight, height)
+print(f"Calculated BMI for {name} is: {bmi_value:.2f}")
+
+additional_info_AGE = 35
+print(f"Age of {name} is: {additional_info_AGE}")
+# Additional Information
+
+FOOD_PREFERENCE = "TACOS"
+print(f"{name}'s food preference is: {FOOD_PREFERENCE}")
+
+FAVORITE_PLACE = "MEXICO"
+print(f"{name}'s favorite place is: {FAVORITE_PLACE}")
+
+LIST_OF_HOBBIES = ["GUITAR", "EATING", "IDK", "SLEEPING"]
+print(f"{name}'s hobbies include: {', '.join(LIST_OF_HOBBIES)}")
+# BMI Calculation and Additional Information
+
+loop_count = 0
+while loop_count < 5:
+    print(f"Loop iteration: {loop_count + 1}")
+    loop_count += 1 
+# Simple Loop
+
+advanced_loop_count = 0
+while advanced_loop_count < 5:
+    print(f"Advanced Loop iteration: {advanced_loop_count + 1}")
+    advanced_loop_count += 1
+# Advanced Loop
+
+instructions_given = 1
+while instructions_given < 5:
+    print(f"Instructions given: {instructions_given + 1}")
+    instructions_given += 1
+# Instructions Loop
+
+string_manipulation = "Hello, Python World!"
+def reverse_string(s):
+    """Reverse a given string"""
+    return s[::-1]
+reversed_string = reverse_string(string_manipulation)
+print(reversed_string)
+# String Manipulation
+
+def to_uppercase(s):
+    """Convert a string to uppercase"""
+    return s.upper()    
+uppercase_string = to_uppercase(string_manipulation)
+print(uppercase_string)
+
+format_string = f"Formatted String: {string_manipulation}"
+print(format_string)    
+
+reverse_stringd = reverse_string(string_manipulation)
+print(reverse_stringd)  
